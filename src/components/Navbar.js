@@ -90,7 +90,7 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                Contact
+                Contato
               </Link>
             </li>
           </ul>
