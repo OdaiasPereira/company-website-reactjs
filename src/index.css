@@ -98,7 +98,7 @@ code {
   width:33.3%;
 }
 /* Navbar */
-.navopened {
+.nav.opened {
   background-color: #010606!important;
 }
 .navopened .logo {

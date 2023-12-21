@@ -10,31 +10,32 @@ function Footer() {
           <div className="side1">
             <div className="row">
               <div className="col-md-3">
-                <h1 className="logo">DarkLeas</h1>
+                <h1 className="logo">VitaScan
+                </h1>
                 <p className="footer-text">
-                  Lorem ipsum Here are thriteen health benefits of apples Lorem
-        
+                  A saúde na palma da sua mão
+
                 </p>
               </div>
               <div className="col-md-3">
-                <p className="footer-title">Important Link</p>
+                <p className="footer-title">Links Importantes   </p>
                 <ul>
                   <li>
-                  <Link   
+                  <Link
                          spy={true}
                          smooth={true}
                          duration={1000}
                          to="headerbg"
-                  > Home </Link>
+                  > Início </Link>
                   </li>
                   <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
+                  <Link to="services" spy={true} smooth={true} duration={1000} > Serviços </Link>
                   </li>
                   <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
+                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>Sobre nós  </Link>
                   </li>
                   <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contato  </Link>
                   </li>
                 </ul>
               </div>
@@ -56,20 +57,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-3">
-                <p className="footer-title">Social Media</p>
-                <ul>
-                  <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/darkleas" > Github</a>
-                  </li>
-                  <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/burhankocadag0" > Twitter</a>
-                  </li>
-                  <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/burhan-kocada%C4%9F-49a3331a5/"> Linkedin</a>
-                  </li>
-                </ul>
-              </div>
+
             </div>
           </div>
         </div>

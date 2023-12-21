@@ -54,7 +54,7 @@ function Navbar() {
                 duration={1000}
                 to="headerbg"
               >
-                Home
+                Início
               </Link>
             </li>
             <li>
@@ -66,7 +66,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
               >
-                Services
+                Serviços
               </Link>
             </li>
             <li>
@@ -78,7 +78,7 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                About
+                Sobre
               </Link>
             </li>
             <li>
