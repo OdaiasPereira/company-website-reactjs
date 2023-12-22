@@ -117,7 +117,7 @@ code {
   top: 0;
   width: 100% ;
   padding: 0.5rem;
-  background-color: transparent;
+  background-color: black;
   z-index: 2;
   backdrop-filter: blur(2px);
 }
@@ -569,6 +569,7 @@ ul li a {
   }
   .col-md-6 {
     width: 100%;
+    padding: 70%;
   }
   .row {
     display: inline-block;
@@ -724,4 +725,9 @@ ul li a {
   left: 0;
   background: linear-gradient(to top, #333, #ccc); /* Change colors as needed */
   z-index: -1;
+}
+
+
+.nav-link-inicio{
+  color: black;
 }

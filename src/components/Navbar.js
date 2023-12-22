@@ -53,6 +53,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
                 to="headerbg"
+                className= "nav-link-inicio"
               >
                 Início
               </Link>
