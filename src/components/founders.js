@@ -14,36 +14,35 @@ function Founders() {
         </div>
         <div class="content">
             <div class="row my-3">
+
               <div class="col-md-3">
                 <div class="column_tm rounded-3 py-3 text-center">
-                  <div class="design-img">
-                    <img class="rounded-top-3" src={process.env.PUBLIC_URL + "/img/juarez.png"} alt="Img Team member" />
+                  <div class="rounded-container">
+                    <img class="rounded-top-founder" src={process.env.PUBLIC_URL + "/img/juarez.png"} alt="Img Team member" width="300" height="300" />
                     <div class="icons p-2">
                       <a href="https://www.github.com/seu_usuario_github" target="_blank"><i class="fab fa-github me-3"></i></a>
-                      <a href="https://www.instagram.com/seu_usuario_instagram" target="_blank"><i class="fa-brands fa-instagram me-3"></i></a>
                       <a href="https://www.linkedin.com/in/seu_usuario_linkedin" target="_blank"><i class="fa-brands fa-linkedin me-3"></i></a>
                     </div>
                   </div>
                   <div class="text shadow py-4">
                       <h5 class="name fw-bold">Juarez Culau</h5>
-                      <p class="pro">CEO e desenvolvedor</p>
+                      <p class="pro">CEO</p>
                   </div>
                 </div>
               </div>
+
               <div class="col-md-3">
                 <div class="column_tm rounded-3 py-3 text-center">
-                  <div class="design-img">
-                    <img class="rounded-top-3" src="./assets/img/team/team-1.jpg" alt="Img Team member" />
+                  <div class="rounded-container">
+                    <img class="rounded-top-founder" src={process.env.PUBLIC_URL + "/img/odaias.png"} alt="Img Team member" width="300" height="300" />
                     <div class="icons p-2">
                       <a href="https://twitter.com/seu_usuario_twitter" target="_blank"><i class="fa-brands fa-twitter me-3"></i></a>
-                      <a href="https://www.facebook.com/seu_usuario_facebook" target="_blank"><i class="fa-brands fa-facebook-f me-3"></i></a>
-                      <a href="https://www.instagram.com/seu_usuario_instagram" target="_blank"><i class="fa-brands fa-instagram me-3"></i></a>
                       <a href="https://www.linkedin.com/in/seu_usuario_linkedin" target="_blank"><i class="fa-brands fa-linkedin me-3"></i></a>
                     </div>
                   </div>
                   <div class="text shadow py-4">
                       <h5 class="name fw-bold">Odaias Pereira</h5>
-                      <p class="pro">CEO e consultor de assuntos biológicos</p>
+                      <p class="pro">CTO</p>
                   </div>
                 </div>
               </div>
