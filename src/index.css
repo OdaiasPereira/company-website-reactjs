@@ -614,19 +614,34 @@ ul li a {
 }
 
 #team .section-top_text p.first {
-  background-color: red; /* Cor de fundo vermelha */
-  border-radius: 50%; /* Bordas arredondadas para criar um círculo */
-  padding: 10px; /* Espaçamento interno */
+  background-color: #DFD7BF; /* Cor de fundo vermelha */
+  border-radius: 30%; /* Bordas arredondadas para criar um círculo */
+  padding: 30px; /* Espaçamento interno */
   display: inline-block; /* Permite a aplicação de border-radius */
   position: relative;
   z-index: 1; /* Coloca o círculo acima do texto */
 }
 
 #team .section-top_text h2.main-title span {
-  color: beige; /* Cor bege para "Time" */
+  color: #000000; /* Color for"time"*/
 }
 
 #team .section-top_text p.text {
-  color: black; /* Cor preta para "Nosso Comprometido" */
+  color: #000000; /* Cor preta para "Nosso Comprometido" */
+}
+
+/* Founders.css */
+
+:root {
+  --time-font-size: 2rem; /* Defina o tamanho padrão para o texto "Time" */
+  --qualificado-font-size: 1.2rem; /* Defina o tamanho padrão para o texto "Um time qualificado proporcionando uma organização da sua saúde" */
+}
+
+#team .section-top_text p.first {
+  font-size: var(--time-font-size); /* Use a variável para definir o tamanho do texto "Time" */
+}
+
+#team .section-top_text p.text {
+  font-size: var(--qualificado-font-size); /* Use a variável para definir o tamanho do texto "Um time qualificado proporcionando uma organização da sua saúde" */
 }
 
