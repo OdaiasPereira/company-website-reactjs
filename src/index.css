@@ -645,3 +645,43 @@ ul li a {
   font-size: var(--qualificado-font-size); /* Use a variável para definir o tamanho do texto "Um time qualificado proporcionando uma organização da sua saúde" */
 }
 
+/* Founders.css */
+
+#team .column_tm {
+  text-align: center;
+}
+
+#team .design-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* Borda arredondada para a imagem */
+}
+
+#team .design-img img {
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 0; /* Para compensar a borda arredondada da imagem */
+  border-bottom-right-radius: 0; /* Para compensar a borda arredondada da imagem */
+}
+
+#team .text {
+  color: black; /* Cor do texto abaixo da imagem */
+}
+
+#team .name {
+  font-size: 1.5rem; /* Tamanho do texto do nome */
+}
+
+#team .pro {
+  font-size: 1rem; /* Tamanho do texto do cargo */
+}
+/* Adicione ao seu arquivo CSS (por exemplo, Founders.css) */
+
+#team .pro.ceo {
+  color: black; /* Cor para "CEO e desenvolvedor" */
+}
+
+#team .pro.cto {
+  color: black; /* Cor para "CEO e consultor de assuntos biológicos" */
+}
+
