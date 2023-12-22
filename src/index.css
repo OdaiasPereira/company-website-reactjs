@@ -75,6 +75,7 @@ code {
 }
 .col-md-6 {
   width: 49.9%;
+
 }
 .col-md-3 {
   margin: 0 1rem!important;
@@ -580,3 +581,52 @@ ul li a {
 .mb-1 {
   margin-bottom: 1rem!important;
 }
+/*CSS for section founders*/
+
+.column_tm .design-img {
+  position: relative;
+  cursor: pointer;
+}
+.column_tm .design-img .icons {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #ffffffb4;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.column_tm .design-img:hover .icons {
+  opacity: 1;
+}
+.column_tm .design-img .icons i {
+  font-size: 1.2rem;
+}
+.column_tm .pro {
+  font-size: 0.8rem;
+  color: #F5F5F5;
+}
+/*CSS for section founders*/
+/*CSS new modifications in founders section*/
+/* Founders.css */
+
+#team .section-top_text {
+  position: relative;
+}
+
+#team .section-top_text p.first {
+  background-color: red; /* Cor de fundo vermelha */
+  border-radius: 50%; /* Bordas arredondadas para criar um círculo */
+  padding: 10px; /* Espaçamento interno */
+  display: inline-block; /* Permite a aplicação de border-radius */
+  position: relative;
+  z-index: 1; /* Coloca o círculo acima do texto */
+}
+
+#team .section-top_text h2.main-title span {
+  color: beige; /* Cor bege para "Time" */
+}
+
+#team .section-top_text p.text {
+  color: black; /* Cor preta para "Nosso Comprometido" */
+}
+

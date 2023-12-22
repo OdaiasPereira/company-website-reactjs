@@ -9,7 +9,7 @@ function Footer() {
             <h1 className="logo">VitaScan</h1>
             <p className="footer-text">A saúde na palma da sua mão</p>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 pr-0">
             <div className="col-md-12">
               <p className="footer-title">Contato</p>
               <ul>

@@ -1,4 +1,6 @@
-<!-- Team section -->
+//Team section
+function Founders() {
+  return (
     <section id="team" class="team my-5">
       <div class="container">
         <div class="section-top_text mb-4 text-center">
@@ -15,24 +17,23 @@
               <div class="col-md-3">
                 <div class="column_tm rounded-3 py-3 text-center">
                   <div class="design-img">
-                    <img class="rounded-top-3" src="./assets/img/team/team-1.jpg" alt="Img Team member">
+                    <img class="rounded-top-3" src={process.env.PUBLIC_URL + "/img/juarez.png"} alt="Img Team member" />
                     <div class="icons p-2">
-                      <a href="https://twitter.com/seu_usuario_twitter" target="_blank"><i class="fa-brands fa-twitter me-3"></i></a>
-                      <a href="https://www.facebook.com/seu_usuario_facebook" target="_blank"><i class="fa-brands fa-facebook-f me-3"></i></a>
+                      <a href="https://www.github.com/seu_usuario_github" target="_blank"><i class="fab fa-github me-3"></i></a>
                       <a href="https://www.instagram.com/seu_usuario_instagram" target="_blank"><i class="fa-brands fa-instagram me-3"></i></a>
                       <a href="https://www.linkedin.com/in/seu_usuario_linkedin" target="_blank"><i class="fa-brands fa-linkedin me-3"></i></a>
                     </div>
                   </div>
                   <div class="text shadow py-4">
                       <h5 class="name fw-bold">Juarez Culau</h5>
-                      <p class="pro">CEO e desenvolvidor</p>
+                      <p class="pro">CEO e desenvolvedor</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="column_tm rounded-3 py-3 text-center">
                   <div class="design-img">
-                    <img class="rounded-top-3" src="./assets/img/team/team-2.jpg" alt="Img Team member">
+                    <img class="rounded-top-3" src="./assets/img/team/team-1.jpg" alt="Img Team member" />
                     <div class="icons p-2">
                       <a href="https://twitter.com/seu_usuario_twitter" target="_blank"><i class="fa-brands fa-twitter me-3"></i></a>
                       <a href="https://www.facebook.com/seu_usuario_facebook" target="_blank"><i class="fa-brands fa-facebook-f me-3"></i></a>
@@ -46,21 +47,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="column_tm rounded-3 py-3 text-center">
-                  <div class="design-img">
-                    <img class="rounded-top-3" src="./assets/img/team/team-3.jpg" alt="Img Team member">
-                    <div class="icons p-2">
-                      <i class="fa-brands fa-twitter me-3"></i>
-                      <i class="fa-brands fa-facebook-f me-3"></i>
-                      <i class="fa-brands fa-instagram me-3"></i>
-                      <i class="fa-brands fa-linkedin me-3"></i>
-                    </div>
-                  </div>
-                  </div>
-              </div>
+              {/* Remova o bloco de código correspondente à terceira imagem */}
             </div>
         </div>
       </div>
     </section>
-    <!-- //Team section -->
+  );
+}
+export default Founders;
+//Team section

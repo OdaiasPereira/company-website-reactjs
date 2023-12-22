@@ -5,7 +5,7 @@ function About() {
 
       <div className="container about">
         <div className="row">
-          <div className="col-md-6 text-center">
+          <div style={{marginTop:'10%'}} className="col-md-6 text-center" >
             <img alt="about" src={process.env.PUBLIC_URL + '/img/correct.png'} className="img-fluid" />
           </div>
           <div className="col-md-6">
