@@ -31,7 +31,7 @@ function Founders() {
                   </div>
                 </div>
 
-                </div>
+               </div>
 
               </div>
 
