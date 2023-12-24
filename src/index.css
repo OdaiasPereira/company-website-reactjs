@@ -703,7 +703,7 @@ ul li a {
 
 .rounded-top-founder {
   width: 100%; /* Ensure the image fills the container */
-  height: 70%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
   border-radius: 60%; /* Make the image round */
   object-fit: cover; /* Maintain aspect ratio and cover the container */
   position: absolute; /* Position the image relative to the container */
@@ -713,15 +713,22 @@ ul li a {
 }
 
 .founder-fading-container {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%; /* Set your preferred width */
+    max-width: 100%; /* Ensure it doesn't exceed 100% of the parent width */
     height: 100%;
     background-color: rgba(169, 169, 169, 0.5); /* Gray background with some transparency */
     z-index: 2; /* Place the container behind other elements */
+    border-radius: 7%;
 }
 
+/* Additional styles for content inside the container */
+.founder-fading-container p {
+    /* Add styles for the content (e.g., text wrapping) */
+    margin: 10px; /* Add margin to give some space between the content and the container edge */
+}
 
 .nav-link-inicio{
   color: black;
