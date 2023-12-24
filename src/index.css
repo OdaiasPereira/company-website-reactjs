@@ -719,7 +719,7 @@ ul li a {
     width: 60%; /* Set your preferred width */
     max-width: 100%; /* Ensure it doesn't exceed 100% of the parent width */
     height: 100%;
-    background-color: rgba(169, 169, 169, 0.5); /* Gray background with some transparency */
+    background: linear-gradient(to top, rgba(169, 169, 169, 0.3) 0%, rgba(169, 169, 169, 0) 100%);
     z-index: 2; /* Place the container behind other elements */
     border-radius: 7%;
 }
@@ -730,6 +730,13 @@ ul li a {
     margin: 10px; /* Add margin to give some space between the content and the container edge */
 }
 
+.align-founders {
+    display: flex;
+    justify-content: center; /* Center the row horizontally */
+}
+
 .nav-link-inicio{
   color: black;
 }
+
+

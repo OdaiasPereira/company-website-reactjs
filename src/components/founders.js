@@ -1,7 +1,7 @@
 //Team section
 function Founders() {
   return (
-    <section id="team" class="team my-5">
+    <section id="team" class="not-used">
       <div class="container">
         <div class="section-top_text mb-4 text-center">
           <p class="first">TIME</p>
@@ -9,8 +9,8 @@ function Founders() {
             Nosso Comprometido <span>Time</span>
           </h2>
         </div>
-        <div class="content">
-            <div class="row my-3">
+        <div class="not-used">
+            <div class="row">
 
               <div class="col-md-3">
 
@@ -58,7 +58,6 @@ function Founders() {
                 </div>
 
               </div>
-              {/* Remova o bloco de código correspondente à terceira imagem */}
             </div>
         </div>
       </div>
